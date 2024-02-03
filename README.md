@@ -7,6 +7,7 @@ Dize is a mobile app developed using Clean Architecture and Bloc as the state ma
 - **Developer:** Shaheed Palappetty
 - **Email:** palappettyshaheed@gmail.com
 - **LinkedIn:** www.linkedin.com/in/shaheed-palappetty
+- **LeetCode:** https://leetcode.com/Shaheed_Palappetty/
 
 ## Features
 

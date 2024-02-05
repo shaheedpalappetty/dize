@@ -34,9 +34,8 @@ class _CountDownState extends State<CountDown> {
   }
 
   void _resetCountdown(bool buttonClicked) {
-    CustomSnackBar.showCustomSnackBar(context, DizeStrings.reset);
-
     if (!buttonClicked) {
+      CustomSnackBar.showCustomSnackBar(context, DizeStrings.reset);
       context.read<DizeBloc>().add(ResetCountDownNotClickedEvent());
     }
     setState(() {
